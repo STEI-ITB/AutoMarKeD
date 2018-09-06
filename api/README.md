@@ -1,3 +1,5 @@
+![Status](https://img.shields.io/badge/Status-Work%20In%20Progress-yellow.svg)
+# API Service
 ## Designing Flask-API for interfacing netconf device and Web-UI
 Let's say we want to write a netconf task list (config and operation) application and we want to design a web service for it. The first thing to do is to decide what is the root URL to access this service. We could expose this service as:
 
