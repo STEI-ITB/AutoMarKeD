@@ -1,2 +1,2 @@
 # AutoMarKeD
-Umar Keinda Dian
+Automate and manage netconf device.
