@@ -5,9 +5,13 @@ name = "pypi"
 
 [packages]
 flask = "==1.0"
+pyang = "==1.7.5"
+pyangbind = "==0.8.1"
+ncclient = "==0.6.2"
+ipython = "==6.5.0"
 
 [dev-packages]
-pylint = "*"
+pylint = "==2.1.1"
 
 [requires]
 python_version = "3.6"
