@@ -10,7 +10,7 @@ new_interface = model.interfaces.interface.add('GigabitEthernet4')
 new_interface.description = 'NETCONF-CONFIGURED PORT'
 new_interface.enabled = "True"
 #new_interface.type = "True"
-#new_interface.link_up_down_trap_enable = "Enabled"
+#new_interface.link_up_down_trap_enable = 1
 
 # print new_interface.get()['description']
 
@@ -19,8 +19,7 @@ ipv4add.netmask = '255.255.255.0'
 new_interface.ipv4.enabled = "True"
 new_interface.ipv4.forwarding = "True"
 new_interface.ipv4.mtu = 1500
-
-new_interface.ipv4.forwarding = "True"
+ipv4neighbor = new_interface.ipv4.neighbor.add('2.2.2.2')
 # print ipv4.get()
 
 ipv6add = new_interface.ipv6.address.add('2222:2222:2222:2222:2222:2222:2222:2222')
