@@ -1,0 +1,6 @@
+interface GigabitEthernet0/0/0/0
+    ipv4 address 2.2.2.3 255.255.255.0
+!
+interface GigabitEthernet0/0/0/1
+    ipv4 address 3.3.3.3 255.255.255.0
+!

@@ -1,0 +1,9 @@
+router ospf 1
+    default-information originate
+    area 0
+        interface GigabitEthernet0/0/0/0
+        !
+        interface GigabitEthernet0/0/0/1
+        !
+    !
+!
