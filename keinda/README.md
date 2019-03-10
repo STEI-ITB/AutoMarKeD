@@ -1,4 +1,4 @@
-# Network Configuration using Bash CLI via NETCONF Protocol with YANG Data Model
+# Network Configuration using Python via NETCONF Protocol with YANG Data Model
 
 Programs for network configuration via NETCONF Protocol for Cisco IOS-XR. Available for interface configuration and OSPF configuration.
 
