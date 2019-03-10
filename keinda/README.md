@@ -4,7 +4,7 @@ Programs for network configuration via NETCONF Protocol for Cisco IOS-XR. Availa
 
 ## Environment Setup
 
-To use the programs, there are some requirements that needed to be installed in the environment. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the requirements : :
+To use the programs, there are some requirements that needed to be installed in the environment. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the requirements : 
 
 ```bash
 pip install ncclient
