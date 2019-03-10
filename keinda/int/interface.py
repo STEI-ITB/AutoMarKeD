@@ -7,7 +7,9 @@ import os
 import xmltodict
 import xml.dom.minidom
 import argparse
+import time
 
+start_time = time.time()
 def read_file(fn):
     with open(fn) as f:
         result = f.read()
@@ -113,6 +115,7 @@ if exists :
 
     print("Edit Config Success? {}".format(reply.ok))
     print("Commit Success? {}".format(c.ok))
+    print("Execution time : %s seconds" % (time.time() - start_time))
 
 else:
     print("XML File Does Not Exist")
